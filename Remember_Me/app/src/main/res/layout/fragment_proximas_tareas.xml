@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/prox_layout"
+    android:layout_height="match_parent"
+    tools:context=".Proximas_tareas"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/fondo"
+            android:layout_width="279dp"
+            android:layout_height="62dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="63dp"
+            android:layout_marginLeft="63dp"
+            android:layout_marginTop="58dp"
+            android:background="@drawable/ic_bordes" />
+
+
+        <TextView
+            android:id="@+id/txtProximasT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/fondo"
+            android:layout_alignLeft="@+id/fondo"
+            android:layout_alignTop="@+id/fondo"
+            android:layout_alignEnd="@+id/fondo"
+            android:layout_alignRight="@+id/fondo"
+            android:layout_alignBottom="@+id/fondo"
+            android:layout_marginStart="51dp"
+            android:layout_marginLeft="51dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="49dp"
+            android:layout_marginRight="49dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="@string/proximasT"
+            android:textColor="@color/Negro"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+
+    </RelativeLayout>
+
+
+    <ListView
+        android:id="@+id/list_prox_tareas"
+        android:layout_width="359dp"
+        android:layout_height="554dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        />
+
+
+</FrameLayout>

@@ -1,0 +1,4 @@
+#Wed Apr 10 09:12:19 BOT 2019
+base.0=C\:\\Users\\fredd\\Desktop\\Programacion 2\\RememberME\\Remember_Me\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\4
+path.0=classes.dex
+renamed.0=classes.dex

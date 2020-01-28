@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/nueva_layout"
+    tools:context=".Nueva_Tarea_Fragment" >
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="466dp"
+        android:layout_height="625dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="48dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:background="@drawable/border"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_fecha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/fecha"
+                android:textColor="@color/Negro"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/view_fecha"
+                android:layout_width="236dp"
+                android:layout_height="31dp"
+                android:layout_gravity="center" />
+
+            <ImageButton
+                android:id="@+id/btnFecha"
+                android:layout_width="66dp"
+                android:layout_height="46dp"
+                android:layout_gravity="right"
+                android:background="@color/transparent"
+                android:src="@drawable/ic_date" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="65dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:background="@drawable/border"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="290dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:text="@string/Todo_el_dia"
+                android:textColor="@color/Negro"
+                android:textSize="18sp" />
+
+            <Switch
+                android:id="@+id/switch2"
+                android:layout_width="56dp"
+                android:layout_height="37dp"
+                android:layout_gravity="center"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/horainicial"
+            android:layout_width="360dp"
+            android:layout_height="65dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:background="@drawable/border"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_Hora_inicial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Hora incial"
+                android:textColor="@color/Negro"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/view_hora_inicial"
+                android:layout_width="207dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center" />
+
+            <ImageButton
+                android:id="@+id/btnHoraInicial"
+                android:layout_width="57dp"
+                android:layout_height="55dp"
+                android:background="@color/transparent"
+                android:src="@drawable/ic_hora" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/horafinal"
+            android:layout_width="360dp"
+            android:layout_height="65dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:background="@drawable/border"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_Hora_final"
+                android:layout_width="91dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Hora final"
+                android:textColor="@color/Negro"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/view_hora_final"
+                android:layout_width="202dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center" />
+
+            <ImageButton
+                android:id="@+id/btnHoraFinal"
+                android:layout_width="57dp"
+                android:layout_height="54dp"
+                android:background="@color/transparent"
+                android:src="@drawable/ic_hora" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="60dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:background="@drawable/border"
+
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="157dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:text="@string/notificar"
+                android:textColor="@color/Negro"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/nt_spinner"
+                android:layout_width="189dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="60dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:background="@drawable/border"
+
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="157dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:text="@string/Estandar"
+                android:textColor="@color/Negro"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/est_spinner"
+                android:layout_width="191dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="38dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:background="@drawable/border"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/descripcion"
+                android:layout_width="91dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/Nota"
+                android:textColor="@color/Negro"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/txt_nota"
+                android:layout_width="250dp"
+                android:layout_height="54dp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@android:color/holo_orange_light"
+            android:enabled="false" />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="42dp"
+            android:layout_marginLeft="42dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/Nom_tarea"
+            android:textColor="@color/Negro"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/nom_tarea"
+            android:layout_width="281dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-72dp"
+            android:layout_marginLeft="-72dp"
+            android:layout_marginTop="46dp"
+            android:layout_toEndOf="@+id/textView2"
+            android:layout_toRightOf="@+id/textView2"
+            android:ems="10"
+            android:inputType="text"
+            android:textColor="@color/Negro"
+            android:textSize="18sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:id="@+id/btn_guardar"
+            android:text="@string/btnGuardar"
+            android:background="@color/transparent"
+            android:textColor="@color/Negro"/>
+
+
+    </RelativeLayout>
+
+</FrameLayout>

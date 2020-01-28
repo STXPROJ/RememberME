@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_nueva_tarea"
+            android:icon="@drawable/ic_menu_addtarea"
+            android:title="@string/nuevas_tareas"/>
+        <item
+            android:id="@+id/nav_tarea_realizada"
+            android:icon="@drawable/ic_menu_check"
+            android:title="@string/tareas_realizadas" />
+        <item
+            android:id="@+id/nav_tarea_atrasada"
+            android:icon="@drawable/ic_menu_atrasada"
+            android:title="@string/tareas_atrasadas" />
+
+        <item
+            android:id="@+id/nav_proximas_tareas"
+            android:icon="@drawable/ic_next"
+            android:title="@string/proximasT" />
+    </group>
+
+    <item android:title="Usuario">
+        <menu>
+            <item
+                android:id="@+id/nav_perfil"
+                android:icon="@drawable/ic_menu_perfil"
+                android:title="@string/perfil" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_menu_exit"
+                android:title="@string/cerrar_sesion" />
+        </menu>
+    </item>
+
+</menu>

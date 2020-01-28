@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.remember_me">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+<<<<<<< HEAD
+=======
+        <activity android:name=".ActivityLauncher" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+>>>>>>> 6aa52603063922948ff700b87bc5a0d16df1bd0f
+
+        <activity
+            android:name=".BandejaDeEntrada"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+<<<<<<< HEAD
+        <activity android:name=".Registro" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+=======
+        <activity
+            android:name=".Registro"
+            android:label="@string/Registro"
+            android:theme="@style/AppTheme.NoActionBar">
+
+>>>>>>> 6aa52603063922948ff700b87bc5a0d16df1bd0f
+        </activity>
+        <activity android:name=".calendarView">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Clock" />
+        <activity android:name=".elementos_prox_tareas" />
+        <activity android:name=".elementos_tareas_atr" />
+        <activity android:name=".elementos_tareas_real" />
+    </application>
+
+</manifest>

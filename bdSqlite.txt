@@ -1,0 +1,46 @@
+
+create table  if not exists recurrence (
+            idRecurrence INTEGER primary key, 
+            name text not null, 
+            description text null,
+            intervalType text null, 
+            interval INTEGER null, 
+            isCancelled boolean default 0);
+            
+            Create table if not exists Task (
+            idTask INTEGER primary key,
+            name  text not null,
+            description text null,
+            createdDate date null,
+            date date null,
+            nextDate date null,
+            idRecurrence int  null,
+            isCancelled boolean default 0,
+            isDone boolean default 0, 
+            foreign key (idRecurrence) references Recurrence 
+            (idRecurrence));
+          
+            
+           Create table if not exists taskHistory(
+            idTask INTEGER primary key,
+             name text not null,
+            description text null,
+            date date null,
+             idRecurrence int  null,
+            isDone boolean default 0, 
+           foreign key (idRecurrence) references Recurrence 
+            (idRecurrence));
+
+          
+           insert into recurrence 
+           (name,description,intervaltype,interval)values
+           ('Diaria','nada','Dia',7);
+           
+           create trigger trg_afterinserTask before insert
+           on task for each row
+           begin
+           insert into test select r.idRecurrence,r.intervalType,
+           r.intervalrecurrence from recurrencetype r where
+ r.idRecurrence = new.idRecurrence group by r.idRecurrence,
+ r.recname,r.intervalrecurrence;
+           

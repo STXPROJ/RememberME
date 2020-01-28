@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Remember Me </string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Usuario</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="nuevas_tareas">Nueva tarea</string>
+    <string name="tareas_realizadas">Tareas realizadas</string>
+    <string name="tareas_atrasadas">Tareas atrasadas</string>
+    <string name="tareas_pendientes">Tareas pendientes</string>
+    <string name="perfil">Mi perfil </string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+    <string name="action_settings">settings</string>
+    <string name="Nom_tarea">Tarea </string>
+    <string name="Nota"> Nota </string>
+    <string name="fecha">     Fecha </string>
+    <string name="Todo_el_dia">  Todo el dia           </string>
+    <string name="notificar">Notificar </string>
+    <string name="Estandar">Estandar </string>
+    <string name="btnGuardar">Guardar </string>
+    <string name="txt_Datos">Datos personales </string>
+
+    <string name="titlulo_pickers">Obtener fecha y hora</string>
+
+    <string name="formato_fecha">dd/mm/yyyy</string>
+    <string name="formato_hora">hh:mm</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Nueva Tarea</string>
+    <string name="tareaperfil">perfil</string>
+    <string name="atrasada">atrasada</string>
+    <string name="TareaPendiente">pendiente</string>
+    <string name="TareaRealizada">realizadas</string>
+    <string name="txtnom">Nombre </string>
+    <string name="txtapeliido">Apellido </string>
+    <string name="txtFechaNac">Fecha de nacimiento </string>
+    <string name="email">Email </string>
+    <string name="User">Usuario </string>
+    <string name="pass">Contraseña </string>
+    <string name="btnContinuar">Continuar</string>
+    <string name="Registro">Registro</string>
+    <string name="proximasT">Próximas tareas </string>
+
+    <string-array name="nt_spinner_array">
+        <item>Nunca </item>
+        <item>Diaria</item>
+        <item>Semanal</item>
+        <item>Mensual</item>
+    </string-array>
+    <string-array name="est_spinner_array">
+        <item>1 </item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+    </string-array>
+</resources>

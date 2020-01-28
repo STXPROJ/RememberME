@@ -1,0 +1,14 @@
+ @Override
+    public int updateTask(ArrayList<TaskVO> listaTask) {
+        int u = 0;
+        for (int i=0;i<listaTask.size();i++){
+        setValues(listaTask.get(i));
+         final String [] selectionArgs = {String.valueOf(listaTask.get(i).getidTask()),String.valueOf(0)};
+        final String selection = COLUMN_IDTASK + " = ? AND " + COLUMN_ISCANCELLED +" = ?";
+        try{
+             super.update(taskTable,mRegistro,selection,selectionArgs);
+             u++;
+        }  catch (SQLiteConstraintException e){
+            Log.d("Database",e.getMessage());
+            return u;
+    }}return u;}
